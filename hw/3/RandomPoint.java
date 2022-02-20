@@ -1,5 +1,6 @@
 public class RandomPoint{
     public static void main(String [] args){
+        // JA: This will give you points outside of the circle
         double x1 = Math.random() * 10 - 5;
         double y1 = Math.random() * 10 - 5;
 

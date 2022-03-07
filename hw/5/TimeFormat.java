@@ -8,6 +8,8 @@ public class TimeFormat{
         System.out.println("The hours, minutes, and seconds for total seconds " + secs + " is " + format(secs));
         input.close();
     }
+
+    // JA: It's a clock. The maximum hours should be 24
     public static String format(long seconds){
          long sec = seconds % 60;
          seconds /= 60;

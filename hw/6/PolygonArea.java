@@ -25,6 +25,7 @@ public class PolygonArea{
             area = area + ((xpoints[j] + xpoints[i]) * (ypoints[j] - ypoints[i]));
             j = i;
         }
+        // JA: Area is not computed properly
         System.out.println(area/2);
         input.close();
     }

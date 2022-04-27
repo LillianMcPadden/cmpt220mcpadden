@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// JA: You were suppose to print the individual weights
 public class Weights{
     public static void main (String [] args){
         Scanner input = new Scanner(System.in);

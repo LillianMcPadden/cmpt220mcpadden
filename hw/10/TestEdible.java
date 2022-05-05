@@ -53,11 +53,11 @@ abstract class Animal implements Cloneable, Comparable<Animal>{
     }  
 }
 
-class Chicken extends Animal implements Edible {
-    @Override
-    public String howToEat() {
-        return "Chicken: Fry it";
-    }
+class Chicken extends Animal {//implements Edible {
+    // @Override
+    // public String howToEat() {
+    //     return "Chicken: Fry it";
+    // }
 
     @Override
     public String sound() {
@@ -72,20 +72,20 @@ class Tiger extends Animal {
     }
 }
 
-abstract class Fruit implements Edible {
-    // Data fields, constructors, and methods omitted here
-}
+// abstract class Fruit implements Edible {
+//     // Data fields, constructors, and methods omitted here
+// }
 
-class Apple extends Fruit {
-    @Override
-    public String howToEat() {
-        return "Apple: Make apple cider";
-    }
-}
+// class Apple extends Fruit {
+//     @Override
+//     public String howToEat() {
+//         return "Apple: Make apple cider";
+//     }
+// }
 
-class Orange extends Fruit {
-    @Override
-    public String howToEat() {
-        return "Orange: Make orange juice";
-    }
-}
+// class Orange extends Fruit {
+//     @Override
+//     public String howToEat() {
+//         return "Orange: Make orange juice";
+//     }
+// }
